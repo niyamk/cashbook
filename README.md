@@ -1,5 +1,6 @@
 # cashbook
 
+Phoenix says hi
 A new Flutter project.
 
 ## Getting Started
