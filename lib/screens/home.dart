@@ -1103,17 +1103,17 @@ class _HomeScreenState extends State<HomeScreen> {
                                                     ),
                                                     GestureDetector(
                                                       onTap: () {
-                                                        if (double.parse(
+                                                        if (/*double.parse(
                                                                     x[1]) >=
-                                                                0 &&
+                                                                0 &&*/
                                                             cashRadio ==
                                                                 'CashOut') {
                                                           print('pos -->> neg');
                                                           list[index] =
                                                               '${name.text}_-${double.parse(amount.text).abs().toString()}_$date';
-                                                        } else if (double.parse(
+                                                        } else if (/*double.parse(
                                                                     x[1]) <
-                                                                0 &&
+                                                                0 &&*/
                                                             cashRadio ==
                                                                 'CashIn') {
                                                           print('neg -->> pos');
