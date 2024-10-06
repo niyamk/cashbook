@@ -1247,18 +1247,18 @@ class _HomeScreenState extends State<HomeScreen> {
                     trailing: Icon(Icons.calendar_month,
                         color: Colors.white, size: 25),
                   ),
-                  ListTile(
-                    onTap: () {
-                      Navigator.push(
-                          context, SlideTransition2(Testing(list: list)));
-                    },
-                    leading: Text(
-                      'Summary',
-                      style: TextStyle(color: Colors.white, fontSize: 20),
-                    ),
-                    trailing:
-                        Icon(Icons.pie_chart, color: Colors.white, size: 25),
-                  ),
+                  // ListTile(
+                  //   onTap: () {
+                  //     Navigator.push(
+                  //         context, SlideTransition2(Testing(list: list)));
+                  //   },
+                  //   leading: Text(
+                  //     'Summary',
+                  //     style: TextStyle(color: Colors.white, fontSize: 20),
+                  //   ),
+                  //   trailing:
+                  //       Icon(Icons.pie_chart, color: Colors.white, size: 25),
+                  // ),
                 ],
               ),
             ),
